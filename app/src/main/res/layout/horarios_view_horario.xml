@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color_selector">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre horario"
+                android:textSize="@dimen/horarios_horario_nombre_size"
+                android:id="@+id/horarios_view_horario_nombre"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-1"
+                android:textStyle="italic"
+                android:id="@+id/horarios_view_horario_periodo"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:layout_gravity="right"
+            android:id="@+id/horarios_view_horario_button"/>
+
+    </LinearLayout>
+
+    <cl.uc.fipezoa.pucassistant.views.mainactivity.HorarioView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/horarios_view_horario_hv"/>
+
+</LinearLayout>

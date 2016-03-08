@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="ancho_casilla_horario">55dp</dimen>
+    <dimen name="horario_text_size">3sp</dimen>
+    <dimen name="altura_barra">1dp</dimen>
+    <dimen name="min_row_height">10dp</dimen>
+    <dimen name="label_text_size">5sp</dimen>
+    <dimen name="altura_barra_break">3dp</dimen>
+    <dimen name="rm_ancho_field">60dp</dimen>
+    <dimen name="rr_ancho_field">100dp</dimen>
+    <dimen name="shortcuts_padding">5dp</dimen>
+    <dimen name="title_text_size">19sp</dimen>
+    <dimen name="ficha_title_tsize">8sp</dimen>
+    <dimen name="ficha_subtitle_tsize">5sp</dimen>
+    <dimen name="buscacursos_title_size">30sp</dimen>
+    <dimen name="buscacursos_option_width">200dp</dimen>
+    <dimen name="buscacursos_option_height">50dp</dimen>
+    <dimen name="buscacursos_option_text_size">20sp</dimen>
+    <dimen name="buscarcurso_al_menos_text_size">9sp</dimen>
+    <dimen name="buscacursos_checkbox_correct_padding">11dp</dimen>
+    <dimen name="buscacursos_result_ua_size">12sp</dimen>
+    <dimen name="mihorario_header_size">20sp</dimen>
+    <dimen name="horarios_horario_nombre_size">18sp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="asunto_text_size">18sp</dimen>
+</resources>

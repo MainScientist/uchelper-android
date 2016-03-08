@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#283597</color>
+    <color name="colorAccent">#5b91bc</color>
+    <color name="focusedBackground">#cecece</color>
+
+    <color name="gray">#888</color>
+
+    <color name="modulo_lab">#38F</color>
+    <color name="modulo_ayud">#3c3</color>
+    <color name="modulo_cat">#fa0</color>
+    <color name="modulo_otro">#920</color>
+    <color name="modulo_practica">#670</color>
+    <color name="modulo_taller">#85c</color>
+    <color name="modulo_terr">#a8a</color>
+    <color name="modulo_tesis">#6cf</color>
+
+    <color name="error">#d00</color>
+    <color name="warning">#db0</color>
+    <color name="ok">#0a0</color>
+    <color name="lightGray">#eeeeee</color>
+</resources>
