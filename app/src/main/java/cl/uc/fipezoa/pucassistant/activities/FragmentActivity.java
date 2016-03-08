@@ -22,6 +22,8 @@ public class FragmentActivity extends AppCompatActivity {
         fragmentTransaction.commit();
     }
 
+    // Change test
+
     public void setFragment(Fragment fragment, boolean backstack, String eventName){
         setFragment(fragment, backstack);
         Mint.logEvent(eventName);
