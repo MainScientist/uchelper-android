@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">UC Helper</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">UsuarioUC</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">Credenciales incorrectas.</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="title_activity_main">UC Helper</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuraciones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Configuraciones</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">Opciones de sincronizacion</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notificaciones</string>
+
+    <string name="pref_title_new_message_notifications">Activar</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silencioso</string>
+
+    <string name="pref_title_vibrate">Vibrar</string>
+    <string name="mostrar_floating_sync">Mostrar boton de actualizacion</string>
+    <string name="mostrar_fab_summary">Activa o desactiva el botón que actualiza la información del alumno.</string>
+    <string name="title_activity_busca_cursos">UC Helper</string>
+    <string name="title_activity_buscar_curso">UC Helper</string>
+    <string name="title_activity_horarios">Horarios</string>
+    <string name="cargar_horario_actualizacion">Lo siento! Esto solo pasa después de una actualización :)</string>
+    <string name="cargar_horario_title">Cargando horarios guardados</string>
+    <string name="cargar_horario_segundoplano">Cargando en segundo plano.</string>
+    <string name="horario_nombre_repetido">Ya tienes un horario con ese nombre!</string>
+    <string name="title_activity_horario_maker">HorarioMaker</string>
+    <string name="title_activity_mail_main">MailUC</string>
+    <string name="title_activity_mail_config">Configurar MailUC</string>
+    <string name="title_activity_write_mail">Nuevo mail</string>
+</resources>

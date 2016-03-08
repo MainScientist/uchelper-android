@@ -1,0 +1,215 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.mainactivity.UserInfoFragment"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Felipe Ignacio Pezoa Pinochet"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_text_size"
+            android:id="@+id/user_info_nombre"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1463192J"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:id="@+id/user_info_nro_alumno"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Datos Personales"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="RUT: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19.089.749-4"
+                        android:id="@+id/user_info_rut"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="F. Nacimiento: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="07/08/1995"
+                        android:id="@+id/user_info_f_nacimiento"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="País: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chile"
+                        android:id="@+id/user_info_pais"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="Genero: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MASCULINO"
+                        android:id="@+id/user_info_genero"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Datos Academicos"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="Carrera: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ing Civil"
+                        android:id="@+id/user_info_carrera"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="Sitaución: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Regular"
+                        android:id="@+id/user_info_situacion"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="Generación: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2014"
+                        android:id="@+id/user_info_generacion"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="Créd. Totales: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="200"
+                        android:id="@+id/user_info_cred_totales"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="@dimen/rr_ancho_field"
+                        android:layout_height="wrap_content"
+                        android:text="PGA: "
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5.63"
+                        android:id="@+id/user_info_pga"/>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="foto"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:id="@+id/foto_view"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

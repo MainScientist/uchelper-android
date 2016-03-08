@@ -1,0 +1,18 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_vertical_margin"
+    tools:context=".fragments.buscacursos.ResultadosFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/buscacursos_results_container">
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/rm_ancho_field"
+            android:layout_height="wrap_content"
+            android:text="Sigla: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IIC1103-1"
+            android:id="@+id/resumen_modulo_sigla"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/rm_ancho_field"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduccion a la Programacion"
+            android:id="@+id/resumen_modulo_nombre"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/rm_ancho_field"
+            android:layout_height="wrap_content"
+            android:text="NRC: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11004"
+            android:id="@+id/resumen_modulo_nrc"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/rm_ancho_field"
+            android:layout_height="wrap_content"
+            android:text="Hora: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:30 - 9:50"
+            android:id="@+id/resumen_modulo_hora"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/rm_ancho_field"
+            android:layout_height="wrap_content"
+            android:text="Sala: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B12"
+            android:id="@+id/resumen_modulo_sala"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/rm_ancho_field"
+            android:layout_height="wrap_content"
+            android:text="Campus: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="San Joaquin"
+            android:id="@+id/resumen_modulo_campus"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/rm_ancho_field"
+            android:layout_height="wrap_content"
+            android:text="Tipo: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AYUD"
+            android:id="@+id/resumen_modulo_tipo"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/rm_ancho_field"
+            android:layout_height="wrap_content"
+            android:text="Prof: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aravena Ricardo"
+            android:id="@+id/resumen_modulo_prof"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

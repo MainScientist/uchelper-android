@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:background="@drawable/background_color_selector"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="+"
+            android:id="@+id/buscacursos_ramo_button"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IIC1103-1"
+            android:gravity="center"
+            android:id="@+id/buscacursos_ramo_sigla"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11034"
+            android:gravity="center"
+            android:id="@+id/buscacursos_ramo_nrc"/>
+    </LinearLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduccion a la Programacion"
+                android:id="@+id/buscacursos_ramo_nombre"/>
+            <View
+                android:layout_marginStart="10dp"
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:id="@+id/buscacursos_ramo_english"
+                android:layout_gravity="center"
+                android:background="@drawable/usa_flag"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reutter Juan"
+            android:id="@+id/buscacursos_ramo_prof"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 creditos"
+            android:id="@+id/buscacursos_ramo_creditos"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="San Joaquin"
+            android:id="@+id/buscacursos_ramo_campus"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buscacursos_ramo_vac_totales"
+                android:text="30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Vacantes totales"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buscacursos_ramo_vac_disp"
+                android:text="20"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginStart="5dp"
+            android:text="Vacantes disponibles"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/buscacursos_ramo_horario">
+
+            <!--<include layout="@layout/buscacursos_view_ramo_horario"/>-->
+            <!--<include layout="@layout/buscacursos_view_ramo_horario"/>-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/buscacursos_ramo_messages">
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
