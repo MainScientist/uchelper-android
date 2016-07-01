@@ -110,12 +110,16 @@
             android:name=".activities.WriteMailActivity"
             android:label="@string/title_activity_write_mail"
             android:parentActivityName=".activities.MailMainActivity"
-            android:windowSoftInputMode="adjustResize"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="cl.uc.fipezoa.pucassistant.activities.MailMainActivity" />
         </activity>
+
+        <service
+            android:name=".services.SendMailService"
+            android:exported="false"></service>
     </application>
 
 </manifest>

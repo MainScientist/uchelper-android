@@ -89,6 +89,11 @@ public class MyWebView extends WebView {
                     progressBar.setVisibility(View.VISIBLE);
                 }
             }
+
+            @Override
+            public void onLoadResource(WebView view, String url) {
+                super.onLoadResource(view, url);
+            }
         });
         setDownloadListener(new DownloadListener() {
             public void onDownloadStart(String url, String userAgent,

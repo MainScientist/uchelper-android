@@ -44,10 +44,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Asunto: "
-                    android:singleLine="true"/>
+                    android:singleLine="true" />
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subject"/>
 
             </LinearLayout>
             <cl.uc.fipezoa.pucassistant.views.HorizontalLine
@@ -60,7 +61,8 @@
             android:layout_weight="1"
             android:inputType="textMultiLine"
             android:gravity="top|start"
-            android:hint="Mensaje..."/>
+            android:hint="Mensaje..."
+            android:id="@+id/mail_content"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
