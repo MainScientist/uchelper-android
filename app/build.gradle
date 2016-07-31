@@ -13,8 +13,8 @@ android {
         applicationId "cl.uc.fipezoa.pucassistant"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 13
-        versionName "1.4.6"
+        versionCode 16
+        versionName "1.4.9"
     }
     buildTypes {
         release {

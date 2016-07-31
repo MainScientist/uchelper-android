@@ -171,19 +171,29 @@ public class HorarioMakerActivity extends AppCompatActivity {
         @Override
         protected ArrayList<Ramos<RamoBuscaCursos>> doInBackground(Void... params) {
             ArrayList<Ramos<RamoBuscaCursos>> ramos = new ArrayList<>();
-            for (String sigla : siglas){
+            for (final String sigla : siglas){
                 FiltroBuscaCursos filtroBuscaCursos = new FiltroBuscaCursos();
                 filtroBuscaCursos.setSigla(sigla);
                 try {
                     Ramos resultados = BuscaCursos.buscarCursos(filtroBuscaCursos, false);
                     if (resultados.size() == 0){
-                        Toast.makeText(HorarioMakerActivity.this, "Error buscando ramo " + sigla, Toast.LENGTH_SHORT).show();
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(HorarioMakerActivity.this, "Error buscando ramo " + sigla, Toast.LENGTH_SHORT).show();
+                            }
+                        });
                         return null;
                     }else {
                         ramos.add(BuscaCursos.buscarCursos(filtroBuscaCursos, false));
                     }
                 } catch (IOException e) {
-                    Toast.makeText(HorarioMakerActivity.this, "Error buscando ramo " + sigla, Toast.LENGTH_SHORT).show();
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(HorarioMakerActivity.this, "Error buscando ramo " + sigla, Toast.LENGTH_SHORT).show();
+                        }
+                    });
                     e.printStackTrace();
                 }
             }
