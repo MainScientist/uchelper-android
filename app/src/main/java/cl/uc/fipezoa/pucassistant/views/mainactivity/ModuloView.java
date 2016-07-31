@@ -103,22 +103,22 @@ public class ModuloView extends LinearLayout {
             nombreRamo.setLayoutParams(layoutParams);
             nombreRamo.setText(ramo.getSigla() + "-" + String.valueOf(ramo.getSeccion()));
             switch (modulo.getTipo()){
-                case "CAT":
+                case "CLAS":
                     nombreRamo.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.hv_catedra_background));
                     break;
                 case "LAB":
                     nombreRamo.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.hv_lab_background));
                     break;
-                case "AYUD":
+                case "AYU":
                     nombreRamo.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.hv_ayud_background));
                     break;
-                case "PRAC":
+                case "PRA":
                     nombreRamo.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.hv_practica_background));
                     break;
-                case "TALL":
+                case "TAL":
                     nombreRamo.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.hv_taller_background));
                     break;
-                case "TERR":
+                case "TER":
                     nombreRamo.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.hv_terr_background));
                     break;
                 case "TES":
